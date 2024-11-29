@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>mi pagina de prueba</title>
+    </head>
+    <body>
+    <h1>formulario</h1>
+    <lu>
+        <li>Home</li>
+        <li><a href="../pagines/enllacos.html">enllaços</a></li>
+        <li><a href="../pagines/taules.html">taules</a></li>
+        <li><a href="../pagines/javascript.html">javascript</a></li>
+        <li><a href="../pagines/layout.html">layout1</a></li>
+        <li><a href="../pagines/layout2.html">layaut2</a></li>
+        <li><a href="../index.html">index</a></li>
+    </lu>
+    <form action="" method="">
+        <fieldset>
+            <legend>dades personals</legend>
+            <label for="Nom">Nom</label>
+            <input id="Nom" type="text" placeholder="escriu el teu Nom"> 
+            <label for="cognom">cognom</label>
+            <input id="cognom" type="text" placeholder="escriu els teus cognoms"><br>
+            <label for="meil">meil</label>
+            <input id="meil" type="text" placeholder="escriu el teu mail"><br>
+            <label for="edat">franja d'edat</label>
+            <select id="edat" name="edat">
+                <option value="menor">menor 18</option>
+                <option value="mayor">mayor 18</option>
+            </select><br>
+            <label for="zona">zona de residencia</label>
+            <input id="barcelona" type="radio" name="fav_language" value="" checked>
+            <label for="barcelona">barcelona</label>
+            <input id="baix" type="radio" name="fav_language" value="">
+            <label for="baix">llobregat</label>
+            <input id="resta" type="radio" name="fav_language" value="">
+            <label for="resta">resta</label>
+        </fieldset>
+    </form>
+    <form>
+        <fieldset>
+            <legend>consulta</legend>
+            <label for="programacio">llenguatge de programacio</label>
+            <input id="PHP" type="checkbox" checked>
+            <label for="PHP"> PHP</label>
+            <input id="java" type="checkbox">
+            <label for="java"> javascript</label>
+            <input id="python" type="checkbox">
+            <label for="python">python</label><br><br>
+            <label for="consulta" type="checkbox" >escriu la teva consulta </label><br>
+            <textarea name="mensaje" rows="10" cols="30" placeholder="escriu la teva consulta"></textarea>
+        </fieldset><br>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+    </form>
+    </body>
+</html>

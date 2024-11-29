@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  color: #333;
+}
+
+header {
+  text-align: center;
+  background-color: #343a40;
+  padding: 20px;
+  color: #fff;
+}
+
+header h1 {
+  font-size: 2.5em;
+  margin-bottom: 5px;
+}
+
+header h2 {
+  font-size: 1.2em;
+  font-weight: normal;
+  color: #adb5bd;
+  margin-bottom: 20px;
+}
+
+header li {
+  list-style-type: none;
+  display: inline-block;
+  margin: 0 15px;
+}
+
+header li a {
+  color: #ffc107;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px 15px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+header li a:hover {
+  background-color: #495057;
+}
+
+header img {
+  display: block;
+  margin: 20px auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+form {
+  max-width: 400px;
+  margin: 30px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+fieldset {
+  border: none;
+}
+
+legend {
+  font-size: 1.5em;
+  color: #343a40;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-top: 15px;
+  color: #333;
+}
+
+input[type="text"], input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 1em;
+}
+
+input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  margin-top: 20px;
+  background-color: #ffc107;
+  color: #343a40;
+  border: none;
+  border-radius: 5px;
+  font-size: 1em;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+  background-color: #e0a800;
+}
+
+@media (max-width: 768px) {
+  header li {
+      display: block;
+      margin: 10px 0;
+  }
+
+  header img {
+      width: 100%;
+      height: auto;
+  }
+
+  form {
+      width: 90%;
+  }
+}
+
+.project-image {
+  width: 400px;
+  height: 200px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: block; 
+}
+.project-image:hover {
+  transform: scale(1.1);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+  cursor: pointer;
+}
+
+li p a {
+  text-decoration: none;
+  color: black;
+}
+
+li p a:hover {
+  text-decoration: underline;
+  color: #555;
+}

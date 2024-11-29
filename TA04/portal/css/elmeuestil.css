@@ -1,0 +1,122 @@
+body {
+    background-color: lightpink;
+} 
+#caixa {
+	width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+/* header */
+.header {
+    display: flex;
+    background-color: white;
+    height: 150px;
+    width: 100%;
+}
+
+.itb.png {
+    width: 20%;
+    color: blue;
+    text-align: center;
+}
+.BASIC {
+    color: blue;
+    text-align: center;
+    font-size: 10px;
+}
+.titulo {
+    width: 60%;
+    color: blue;
+    text-align: center;
+    font-size: 30px;
+    margin: auto;
+    
+}
+.subtitulo {
+    font-size: 12px;
+}
+.css {
+    width: 20%;
+    margin: auto;
+    text-align: center;
+}
+/* nav */
+.main {
+    display: flex;
+}
+.link {
+    color: white ;
+    background-color: rgb(235, 1, 118);
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+}
+.Portal {
+    text-align: center;
+    margin: auto;
+    font-size: 25px;
+    padding: 10px;
+}
+/* article */
+.article {
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    border: 2px solid blue;
+}
+.Formació {
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+
+}
+.tech {
+    text-align: center
+}
+.text {
+    margin: auto;
+    text-align: justify;
+    width: 600px;
+}
+/* aside */
+.news {
+    background-color: white;
+    width: 100%;
+    height: 50%;
+    border: 2px solid blue;
+    padding: 10px;
+}
+.latest {
+    color: blue;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+}
+.nos {
+    margin: auto;
+    text-align: justify;
+    width: 188px;
+}
+.Login {
+    padding: 10px;
+    background-color: white;
+    width: 100%;
+    height: 40%;
+    border: 2px solid blue;
+}
+.Login2 {
+    text-align: center;
+    margin: auto;
+    color: blue;
+}
+/* footer */
+.realizado {
+    background-color: rgb(235, 1, 118);
+    margin-top: auto;
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    color: white;
+}
